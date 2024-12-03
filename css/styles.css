@@ -1,0 +1,25 @@
+body {
+  background: rgb(96, 91, 201);
+  background: radial-gradient(circle, rgb(84, 78, 204) 0%, rgb(80, 17, 216) 100%);
+}
+
+#carousel .cloud9-item, #buttons button {
+  cursor: pointer;
+}
+
+.cloud9-item {
+  filter: blur(2px) brightness(50%);
+}
+
+.frontItemClass {
+  filter: blur(0px);
+}
+
+#buttons .left,
+#buttons .right {
+  height: 400px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
